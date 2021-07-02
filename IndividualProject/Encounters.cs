@@ -111,6 +111,7 @@ namespace IndividualProject
                         {
                             Program.currentPlayer.Health = Program.currentPlayer.Maxhp;
                         }
+                        Program.currentPlayer.Potions -= 1;
                     }
                     Console.ReadKey();
                 }
